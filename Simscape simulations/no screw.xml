@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/31/23||13:42:43" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.3.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="no screw" uid="no screw" version="163">
+<AssemblyFile name="no screw.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="motor housing copy 1-1" uid="motor housing copy 1-1" grounded="true" entityUid="motor housing copy 1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018533485241875199 0.024717838723749785 0.0023351014917130548</Translation>
+</Transform>
+</Instance>
+<Instance name="motor thing with rotor holes copy 3-1" uid="motor thing with rotor holes copy 3-1" entityUid="motor thing with rotor holes copy 3*:*Default">
+<Transform>
+<Rotation>0.99896030063040209 -0.045588570545881141 0 0.045588570545881141 0.99896030063040209 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.056295777541814036 0.01614998534085723 0.039335201491713059</Translation>
+</Transform>
+</Instance>
+<Instance name="rotor right dimensions copy 2-1" uid="rotor right dimensions copy 2-1" entityUid="rotor right dimensions copy 2*:*Default">
+<Transform>
+<Rotation>0.73860759008950327 0.67413561533431576 0 -0.67413561533431576 0.73860759008950327 0 0 0 1</Rotation>
+<Translation>0.018533485241875196 0.024717838723749792 0.0027491587305999658</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>motor housing copy 1-1</Uid>
+</InstancePath>
+<Position>0 0 0.036000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rotor right dimensions copy 2-1</Uid>
+</InstancePath>
+<Position>0 0 0.035585942761113099</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor housing copy 1-1</Uid>
+</InstancePath>
+<Position>0 0 0.036000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rotor right dimensions copy 2-1</Uid>
+</InstancePath>
+<Position>0 0 0.035585942761113099</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rotor right dimensions copy 2-1</Uid>
+</InstancePath>
+<Position>0 0 -0.006494237863769424</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>motor thing with rotor holes copy 3-1</Uid>
+</InstancePath>
+<Position>-0.037332434680067153 0.010280474317621462 -1.0000000000287557e-07</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rotor right dimensions copy 2-1</Uid>
+</InstancePath>
+<Position>-0.002517577563525027 0.0025175775635250322 0.035585942761113099</Position>
+<Axis>-0.70710678118654779 -0.70710678118654768 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor thing with rotor holes copy 3-1</Uid>
+</InstancePath>
+<Position>-0.040556254823627569 0.033582184148826869 -1.0000000000287557e-07</Position>
+<Axis>-1 -1.8735013540549517e-16 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor housing copy 1-1</Uid>
+</InstancePath>
+<Position>0 0 0.037000000000000005</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor thing with rotor holes copy 3-1</Uid>
+</InstancePath>
+<Position>0 0 -1.0000000000287557e-07</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="motor housing copy 1" uid="motor housing copy 1*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor housing copy 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0014484075172537692</Mass>
+<CenterOfMass>0 0 0.019493802078410255</CenterOfMass>
+<Inertia>2.103924154480486e-07 2.1039241544804858e-07 5.9580824200497774e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor housing copy 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor thing with rotor holes copy 3" uid="motor thing with rotor holes copy 3*:*Default" version="1209">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor thing with rotor holes copy 3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0080898705684524456</Mass>
+<CenterOfMass>-0.038026915936070771 0.054424774565528959 0.0034788342022418436</CenterOfMass>
+<Inertia>5.5478242164889525e-06 2.131810987334688e-07 5.672315117458496e-06 -2.0716352026896334e-07 4.0809866062890279e-09 9.5764035547267409e-08</Inertia>
+</MassProperties>
+<GeometryFile name="motor thing with rotor holes copy 3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rotor right dimensions copy 2" uid="rotor right dimensions copy 2*:*Default" version="1204">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rotor right dimensions copy 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01250691320901701</Mass>
+<CenterOfMass>0 0 0.017905675928185556</CenterOfMass>
+<Inertia>1.4968691078476469e-06 1.4968691078476469e-06 9.6595266931507303e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="rotor right dimensions copy 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
